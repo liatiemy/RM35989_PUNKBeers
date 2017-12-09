@@ -14,7 +14,8 @@ class BeerViewController: UIViewController {
     
     @IBOutlet weak var tfName: UILabel!
     @IBOutlet weak var tfTagline: UILabel!
-    @IBOutlet weak var tfDescription: UILabel!
+    @IBOutlet weak var tfDescription: UITextView!
+    //    @IBOutlet weak var tfDescription: UILabel!
     @IBOutlet weak var tfTeorAlcoolico: UILabel!
     @IBOutlet weak var tfEscalaAmargor: UILabel!
     @IBOutlet weak var ivBeer: UIImageView!
